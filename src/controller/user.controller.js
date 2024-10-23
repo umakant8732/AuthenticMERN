@@ -128,3 +128,13 @@ export const testingAPI = async (req, res) => {
         }
     )
 }
+
+
+export const testingAPI2 = async (req, res) => {
+    return res.status(200).json(
+        {
+            name : "umakant",
+            message : "congratulation we have successfully deployed our backend"
+        }
+    )
+}
